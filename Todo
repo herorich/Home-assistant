@@ -1,7 +1,3 @@
-Get "Configuration Backup to GitHub" up and running. https://home-assistant.io/docs/ecosystem/backup/backup_github/
-  See also https://community.home-assistant.io/t/hassio-config-backup-strategy/28499/8
-  Need working SSH https://home-assistant.io/addons/ssh/
-  
 Switch to local API in telldus. https://home-assistant.io/components/tellduslive/
   1) Delete tellduslive.conf
   2) Reboot Tellstick device
@@ -27,7 +23,5 @@ Fix automation problem, light not turning off after five minutes?
 
 Tidy up the automations.yaml..
   The automations generated in hassio gets a wierd layout in the automations file
-  Another reason is that the automation documentation and examples is written for file editing 
-  
-Configure "Google Assistant"
+  Another reason is that the automation documentation and examples is written for file editing
   
