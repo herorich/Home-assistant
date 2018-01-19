@@ -1,7 +1,7 @@
 
 Get "Configuration Backup to GitHub" up and running. https://home-assistant.io/docs/ecosystem/backup/backup_github/
   See also https://community.home-assistant.io/t/hassio-config-backup-strategy/28499/8
-  Need working SSH https://home-assistant.io/addons/ssh/
+  SHH - done
 
 ###---------------------------------------------------------###
 
@@ -9,3 +9,15 @@ Configure "Google Assistant"
 
 ###---------------------------------------------------------###
 
+Automation that pauses the chromecast audio when someone calls and starts when call ends.
+  (Tasker)
+
+###---------------------------------------------------------###
+
+Add lights on when friends and family enters the house when the sun has set. 
+
+###---------------------------------------------------------###
+
+Buy a door sensor and place it in the closet that turns a single GU10 spot on thats lights upp the closet.
+
+###---------------------------------------------------------###
