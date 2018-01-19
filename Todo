@@ -3,25 +3,12 @@ Switch to local API in telldus. https://home-assistant.io/components/tellduslive
   2) Reboot Tellstick device
   3) Configure local API
 
-Fix automation problem, light not turning off after five minutes?
- action:
-  - data:
-      entity_id: light.hallen_innanfor_dorren
-    service: light.turn_on
-  - delay: 'minutes: 5'
-  - data:
-      entity_id: light.hallen_innanfor_dorren
-    service: light.turn_off
-  alias: Hallway ligths on when arrive home
-  condition: []
-  id: '1515594690770'
-  trigger:
-  - entity_id: device_tracker.phone_phone
-    event: enter
-    platform: zone
-    zone: zone.home
-
 Tidy up the automations.yaml..
   The automations generated in hassio gets a wierd layout in the automations file
   Another reason is that the automation documentation and examples is written for file editing
+  
+Add conditions for chromecast call-pause automation so that it don't pause when the kids are with me during certain hours.
+
+Add "on"-state that triggers when kWh > 5 or something. Then add the on-state as a condition in the "washer-done" automation 
+  to get rid of false alarms.
   
