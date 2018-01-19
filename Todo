@@ -1,0 +1,8 @@
+Get "Configuration Backup to GitHub" up and running. https://home-assistant.io/docs/ecosystem/backup/backup_github/
+  See also https://community.home-assistant.io/t/hassio-config-backup-strategy/28499/8
+  
+Switch to local API in telldus. https://home-assistant.io/components/tellduslive/
+  1) Delete tellduslive.conf
+  2) Reboot Tellstick device
+  3) Configure local API
+
