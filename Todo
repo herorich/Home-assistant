@@ -11,4 +11,9 @@ Add conditions for chromecast call-pause automation so that it don't pause when 
 
 Add "on"-state that triggers when kWh > 5 or something. Then add the on-state as a condition in the "washer-done" automation 
   to get rid of false alarms.
-  
+
+Add day condition for engine heater
+
+Take care of the child light problem (the day condition won't work..?)
+
+
