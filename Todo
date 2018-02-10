@@ -7,6 +7,8 @@ Tidy up the automations.yaml..
   The automations generated in hassio gets a wierd layout in the automations file
   Another reason is that the automation documentation and examples is written for file editing
   
+  2018-02-10 If you edit automations created in HA mode the edits will revert after a while?... 
+  
 Add conditions for chromecast call-pause automation so that it don't pause when the kids are with me during certain hours.
 
 Add "on"-state that triggers when kWh > 5 or something. Then add the on-state as a condition in the "washer-done" automation 
